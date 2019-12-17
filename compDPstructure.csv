@@ -1,0 +1,13 @@
+Component,Cost,DP,importance,constSensitivity,type
+A,110,a1,1,1,R
+,,a2,1,1,A
+,,a3,1,1,A
+,,a4,1,1,A
+,,a5,3,1,A
+,,a6,3,1,A
+B,50,a7,3,3,A
+,,a8,1,1,A
+,,a9,1,1,R
+,,a10,9,1,A
+,,a11,9,1,A
+,,a12,9,1,A
