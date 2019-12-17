@@ -5,7 +5,6 @@
 setwd("/home/buzzsongs/TE2019"); ##chrome os
 
 
-
 rm(list = ls());
 
 source("./setEnvirionment.R");
