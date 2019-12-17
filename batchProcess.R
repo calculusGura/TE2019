@@ -1,7 +1,8 @@
-#setwd("C:/Users/buzzs/Dropbox/TE2019");
-#setwd("/home/ubuntu/test");
+#setwd("C:/Users/buzzs/Dropbox/TE2019"); ##windows
+#setwd("/home/ubuntu/test");  ##aws
+#setwd("/Users/Jeong/Dropbox/TE2019"); ##osx
 
-setwd("/Users/Jeong/Dropbox/TE2019");
+setwd("/home/buzzsongs/TE2019"); ##chrome os
 
 
 
@@ -26,11 +27,6 @@ productData <- generateWeightModel(csvData5, productData);
 
 source("./networkView.R");
 showProductNetwork(productData);
-#png("./test.png", width = 2000, height = 2000);
-#par(mfrow=c(1,1));
-#showProductNetwork(productData);
-#dev.off();
-
 
 source("./explorePropagationPath.R");
 path <- exploringPropagationPath(c("D1"), productData);
