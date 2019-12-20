@@ -1,5 +1,5 @@
 #setwd("C:/Users/buzzs/Dropbox/TE2019"); ##windows
-#setwd("/home/ubuntu/test");  ##aws
+#setwd("/home/ubuntu/test");  ##aws ssh
 #setwd("/Users/Jeong/Dropbox/TE2019"); ##osx
 
 setwd("/home/buzzsongs/TE2019"); ##chrome os
