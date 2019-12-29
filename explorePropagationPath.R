@@ -2,11 +2,11 @@ checkPathFeasibility <- function(path, productData){}
 
 
 #exploring propagation path
-exploringPropagationPath <- function(dps, productData){
+exploringPropagationPath <- function(startDPs, productData){
   
   propagationPath <- new("PropagationPath",
-                         path = list(dps),
-                         dps = dps,
+                         path = list(startDPs),
+                         dps = startDPs,
                          constDPMatrix = productData@constDPMatrix);
 
   #iterating the engineering decision

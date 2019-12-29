@@ -2,7 +2,7 @@
 #setwd("/home/ubuntu/test");  ##aws ssh
 #setwd("/Users/Jeong/Dropbox/TE2019"); ##osx
 
-setwd("/home/buzzsongs/TE2019"); ##chrome os
+setwd("/home/buzzsongs/te2019"); ##chrome os
 
 
 rm(list = ls());
